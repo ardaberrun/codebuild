@@ -2,7 +2,7 @@ describe('Basic', () => {
     it('should confirm that 2 + 2 equals 4', () => {
       const sum = 2 + 2;
 
-      expect(sum).toBe(4);
+      expect(sum).toBe(5);
     });
   
     it('should confirm that true is true', () => {

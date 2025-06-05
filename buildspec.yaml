@@ -1,0 +1,21 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing Node.js dependencies...
+      - npm install
+  pre_build:
+    commands:
+      - echo Running tests...
+      - npm run test
+  build:
+    commands:
+      - echo No specific build step for this simple app.
+  post_build:
+    commands:
+      - echo Build and test process finished.
+artifacts:
+  files:
+    - '**/*'
+  name: my-simple-app-build-artifact

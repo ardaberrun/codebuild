@@ -15,7 +15,7 @@ app.get('/todos', (req, res) => {
 });
 
 app.post('/todos', (req, res) => {
-    console.log('test codebuild 2');
+    console.log('test codebuild 3');
     todos.push(req.body.todo);
 
     res.status(200).json({
